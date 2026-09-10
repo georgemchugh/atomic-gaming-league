@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atomic Gaming League — Waitlist</title>
+  <meta name="description" content="Atomic Gaming League. Community server. House-rules cups. Join the waitlist for the 100-seat US West WARDOGS community box." />
+  <meta name="theme-color" content="#07090f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="brand-text">Atomic Gaming League</span>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <a href="https://x.com/AGL__Esports" rel="noopener noreferrer" target="_blank">X</a>
+      <a href="https://discord.gg/RWNCDqrZPZ" rel="noopener noreferrer" target="_blank">Discord</a>
+      <a href="#waitlist" class="nav-cta">Join waitlist</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">AGL · US West · Online-first</p>
+      <h1>Atomic Gaming League.<br />Community server.<br />House-rules cups.</h1>
+      <p class="sub">
+        Reserved 100-slot US West WARDOGS community box. Pubs most nights.
+        Cups when three captains are ready. StarCraft II and Counter-Strike 2 on the AGL slate —
+        not a championship night, not a purse.
+      </p>
+      <div class="join" aria-label="Join links">
+        <a class="chip" href="https://x.com/AGL__Esports" rel="noopener noreferrer" target="_blank">
+          <span class="chip-k">X</span>
+          <span class="chip-v">@AGL__Esports</span>
+        </a>
+        <a class="chip" href="https://discord.gg/RWNCDqrZPZ" rel="noopener noreferrer" target="_blank">
+          <span class="chip-k">Discord</span>
+          <span class="chip-v">discord.gg/RWNCDqrZPZ</span>
+        </a>
+        <a class="chip" href="https://agl.xrealm.gg" rel="noopener noreferrer" target="_blank">
+          <span class="chip-k">Server</span>
+          <span class="chip-v">agl.xrealm.gg</span>
+        </a>
+      </div>
+      <p class="cta-row">
+        <a class="btn" href="#waitlist">Join the waitlist</a>
+      </p>
+    </section>
+
+    <section class="panel about" id="about">
+      <h2>What AGL is</h2>
+      <p>
+        Atomic Gaming League is an online-first competitive community. We start with a WARDOGS
+        community server and house-rules cups from day one of Early Access — building the ruleset
+        in public before bigger seasons.
+      </p>
+      <ul class="games">
+        <li>
+          <strong>WARDOGS</strong>
+          <span>Flagship. Community server + house-rules cups first.</span>
+        </li>
+        <li>
+          <strong>StarCraft II</strong>
+          <span>Ranked seasons on the AGL slate.</span>
+        </li>
+        <li>
+          <strong>Counter-Strike 2</strong>
+          <span>On the competitive roadmap (not required for day-one cups).</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="panel waitlist" id="waitlist">
+      <h2>Join the waitlist</h2>
+      <p class="waitlist-lead">Claim a seat. We’ll ping you when the next cup opens.</p>
+      <div class="tally-wrap">
+        <iframe
+          data-tally-src="https://tally.so/embed/LZrl7p?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="lazy"
+          width="100%"
+          height="480"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="Atomic Gaming League waitlist"
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Dark Matter LLC · New Mexico. Working name — marks pending. Not affiliated with Bulkhead or Team17. Not an official WARDOGS league.</p>
+  </footer>
+
+  <script>
+    var d = document, w = "https://tally.so/widgets/embed.js",
+      v = function () { "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function (e) { e.src = e.dataset.tallySrc }) };
+    if ("undefined" != typeof Tally) v();
+    else if (d.querySelector('script[src="' + w + '"]') == null) {
+      var s = d.createElement("script"); s.src = w; s.onload = v; s.onerror = v; d.body.appendChild(s);
+    }
+  </script>
+</body>
+</html>

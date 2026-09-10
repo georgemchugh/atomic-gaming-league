@@ -6,8 +6,6 @@ A decentralized, community-based esports company rebuilding what made gaming gre
 **Deadline:** Conversations / LOIs by **9/28**  
 **Founder:** George McHugh · Working name — marks pending
 
-**Entity (confidential / seed appendix only — not for Discord, X, or consumer site):** Dark Matter LLC (New Mexico)
-
 ## What we’re building
 AGL starts online: a WARDOGS community server + house-rules cups, grown in public. WARDOGS is the center of gravity — a cult following with room to scale if Bulkhead keeps patching. Community servers handle balance the way big-studio live ops often don’t.
 

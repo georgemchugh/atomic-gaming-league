@@ -1,36 +1,24 @@
-# Atomic Gaming League — waitlist
+# Atomic Gaming League — public site
 
-Static waitlist landing for [atomicgamingleague.com](https://atomicgamingleague.com).
+Player landing for [atomicgamingleague.com](https://atomicgamingleague.com).
 
-- Copy: Hero A + About/games + locked footer
-- Join: `@AGL__Esports` · Discord `discord.gg/RWNCDqrZPZ` · Server `agl.xrealm.gg`
-- Form: Tally embed `https://tally.so/r/LZrl7p`
+## Live copy locks
 
-## Local preview
+- How to play: Steam WARDOGS (`1867240`) → Server Browser → US West → search `agl` or `AGL`
+- Discord: `discord.gg/RWNCDqrZPZ`
+- X: `@AGL__Esports`
+- Mail: `hello@aglesports.com`
+- Form: Tally `LZrl7p` (cup roster / waitlist)
+- atomiclive! tease only — no date, no tickets. Slate: WARDOGS + SC2 + BYOC
+- Not official Bulkhead / Team17. No purse language. No ®
 
-Open `index.html` in a browser, or:
+## Do not publish on the player domain
 
-```bash
-npx --yes serve .
-```
+`pitch/` is founder material. `_redirects` sends `/pitch/*` home. Keep pitch out of the public nav. Prefer a private repo for investor pages.
 
-## Deploy to Cloudflare Pages
+Do not add: game-server IP, prize figures, venue names, festival dates, official-league claims, investor CTAs.
 
-1. Cloudflare Dashboard → Workers & Pages → Create → Pages → Connect to Git
-2. Select `georgemchugh/atomic-gaming-league`
-3. Build settings:
-   - Framework preset: None
-   - Build command: *(leave empty)*
-   - Build output directory: `/`
-4. Save and Deploy
-5. Custom domains → add `atomicgamingleague.com` and `www` (zone already on Cloudflare)
+## Deploy
 
-Or direct upload:
-
-```bash
-npx wrangler pages deploy . --project-name=atomic-gaming-league
-```
-
-## Claim bans (do not add)
-
-No purses, venues, festival dates, official-league language, investor CTAs, QONZER, or “Atomic Gaming” without “League”.
+Cloudflare Pages → this repo → no build command → output `/`.
+Pretty URL: `/rules` rewrites to `rules.html`.
